@@ -1,0 +1,157 @@
+{
+	"properties": [
+        {
+            "id":"01",
+			"type":"House",
+            "bedrooms":4,
+			"price":2500000,
+			"tenure":"Freehold",
+			"description":"This elegant 3-bedroom house in Moratuwa combines modern design with comfort, featuring an open-plan living area, a stylish kitchen, and a private balcony with stunning city views. Located in a prime neighborhood, it offers easy access to top schools, shopping malls, and public transportation, making it perfect for urban living.",
+			"location":"The Five Residences, wanchawala, Galle, 80090",
+			"title": "Urban Elegance Residence",
+			"city":"Moratuwa",
+			"postalCode":"10400",
+			"picture":"/images/prop01/img1.jpg",
+			"url":"./property1.js",
+			"longDescription": "This elegant 3-bedroom house in Moratuwa blends modern design with comfort, featuring an open-plan living area, a stylish kitchen, and a private balcony with stunning city views. The master bedroom offers an ensuite and ample storage, while two additional bedrooms provide space for family or guests. Located in a prime neighborhood, the home is close to top schools, shopping malls, and public transportation, ensuring convenience for urban living. With a lush garden for outdoor relaxation and modern finishes throughout, this property offers a perfect balance of sophistication and practicality.",
+			"floorplan": "/images/floorplans/floorplan1.webp",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63392.36311402094!2d79.84793609119801!3d6.767086866703888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2450af2b3b63d%3A0x4bd5b87e09abb3c7!2sMoratuwa!5e0!3m2!1sen!2slk!4v1736131884079!5m2!1sen!2slk",
+            "added": {
+                "month":"November",
+                "day":25,
+                "year":2024
+            }
+        },
+		{
+            "id":"02",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":30000000,
+			"tenure":"Freehold",
+			"description":"A stylish 2-bedroom flat in Kandy, featuring an open-plan living space with wooden floors and bi-fold doors leading to a private courtyard. The modern kitchen includes integrated appliances, making it perfect for contemporary living",
+			"location":"Regent Heights, Sumangala Mawatha, Kandy, 20000",
+			"title": "Regent Heights",
+			"city":"Kandy",
+			"postalCode":"20000",
+            "picture":"/images/prop02/img1.jpg",
+			"url":"./property2.js",
+			"longDescription": "Regent Heights offers modern city living at its finest. This stylish 2-bedroom flat in Kandy is designed with comfort, functionality, and luxury in mind. As you step inside, you’re greeted by an open-plan living and dining area that seamlessly blends contemporary design with a homely feel. The large bi-fold doors lead to a private courtyard, offering the perfect space for outdoor relaxation, gardening, or enjoying a morning coffee. The sleek wooden flooring adds warmth and sophistication, while the modern kitchen comes equipped with high-end integrated appliances, perfect for preparing gourmet meals. Both bedrooms are spacious and filled with natural light, each offering built-in wardrobes and access to a shared bathroom with modern fixtures. Regent Heights is located in a prime area, offering excellent connectivity to key areas of Kandy, including schools, shops, restaurants, and entertainment venues. The flat is perfect for young professionals, couples, or small families who want to live in a luxurious yet convenient location. With its stylish interior, private outdoor space, and proximity to the best that Kandy has to offer, Regent Heights offers a comfortable and elevated living experience",
+			"floorplan": "/images/floorplans/floorplan2.png",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.4301079504!2d80.58458154255511!3d7.294543434426725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1736132284070!5m2!1sen!2slk",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+		{
+            "id":"03",
+			"type":"Apartment",
+            "bedrooms":1,
+			"price":40000000,
+			"tenure":"Leasehold",
+			"description":"This luxurious 3-bedroom apartment in Nugegoda offers spacious interiors, a modern kitchen, and a private balcony with stunning city views. Located in a secure building, it provides easy access to shopping centers, schools, and public transport, perfect for contemporary living.",
+			"location":"Cristal Sands, Hikkaduwa, 80240",
+			"title": "Luxury Apartment with Panoramic Views",
+			"city":"Nugegoda",
+			"postalCode":"80240",
+            "picture":"/images/prop03/img4.jpg",
+			"url":"properties/prop2.html",
+			"longDescription": "Discover the perfect blend of comfort and sophistication in this premium 3-bedroom apartment located in the heart of Nugegoda. Boasting a spacious and well-designed layout, the apartment features an open-plan living and dining area, seamlessly connected to a sleek, modern kitchen complete with high-end fittings and ample storage space. The large master bedroom offers an en-suite bathroom and built-in wardrobes, while the two additional bedrooms are ideal for family or guests. Step out onto the private balcony and immerse yourself in breathtaking panoramic views of the city skyline—a serene retreat amidst urban living. This apartment is situated in a secure, well-maintained building that offers premium amenities such as 24/7 security, a fitness center, a rooftop garden, and a dedicated parking space. Its prime location ensures you’re just minutes away from leading shopping malls, top-rated schools, dining establishments, and public transport links, making it an ideal choice for professionals, families, or investors seeking a premium urban lifestyle.",
+			"floorplan": "/images/floorplans/floorplan3.jpg",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31689.666730519704!2d79.88506009067697!3d6.865619010499587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a7a9577b535%3A0x62e4b0a7bd678e33!2sNugegoda!5e0!3m2!1sen!2slk!4v1736132400234!5m2!1sen!2slk",
+            "added": {
+                "month":"September",
+                "day":5,
+                "year":2024
+            }
+        },
+		{
+            "id":"04",
+			"type":"House",
+            "bedrooms":3,
+			"price":35000000,
+			"tenure":"Freehold",
+			"description":"This beautifully designed 4-bedroom house in Dehiwala features spacious interiors, a modern kitchen, and a landscaped garden. Located in a peaceful neighborhood, it offers convenient access to schools, supermarkets, and public transport, making it an ideal choice for families.",
+			"location":"Lily Luxury House, Polwatta Road, Weligama, 81700",
+			"title": "Elegant Family Home in Dehiwala",
+			"city":"Mount-Lavinia",
+			"postalCode":"50000",
+            "picture":"/images/prop04/img1.jpg",
+			"url":"properties/prop2.html",
+			"longDescription": "Welcome to this stunning 4-bedroom family home, perfectly situated in a serene residential area of Dehiwala. Designed with comfort and practicality in mind, this house boasts an expansive living room with natural light streaming through large windows, creating a warm and inviting atmosphere. The modern kitchen is equipped with high-quality appliances, ample cabinetry, and a central island, making it a dream for cooking enthusiasts. A separate dining area provides the perfect setting for family meals and gatherings. The master bedroom includes an en-suite bathroom and walk-in wardrobe, while the additional bedrooms are generously sized, ideal for children, guests, or even a home office. Step outside to a beautifully landscaped garden that offers a private and tranquil outdoor space, perfect for relaxing or entertaining. The property also features a secure garage and ample parking for additional vehicles. Located just minutes away from leading schools, supermarkets, and public transport links, this home provides the perfect combination of convenience and comfort. Whether you’re raising a family or looking for a peaceful retreat close to the city, this house is a true gem.",
+			"floorplan": "/images/floorplans/floorplan4.jpg",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63383.19242821604!2d79.83774594137098!3d6.836584249240553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a8d6ec1f8c3%3A0x47810f3e7d084753!2sDehiwala-Mount%20Lavinia!5e0!3m2!1sen!2slk!4v1736132462301!5m2!1sen!2slk",
+            "added": {
+                "month":"October",
+                "day":17,
+                "year":2024
+            }
+        },
+		{
+            "id":"05",
+			"type":"Apartment",
+            "bedrooms":2,
+			"price":50000000,
+			"tenure":"Luxurious Beachside Apartment in Galle",
+			"description":"This elegant 3-bedroom apartment in Galle offers stunning ocean views, a modern open-plan design, and premium amenities. Located close to the beach and city center, it’s the perfect coastal retreat for those seeking luxury and convenience.",
+			"location":"Oceanfront Galle, Colombo-Galle Main Road, Galle, 80000",
+			"title": "Oceanfront Galle",
+			"city":"Galle",
+			"postalCode":"80090",
+            "picture":"/images/prop05/img1.jpg",
+			"url":"properties/prop2.html",
+			"longDescription": "Experience coastal living at its finest in this luxurious 3-bedroom apartment, perfectly situated in the heart of Galle. With breathtaking views of the Indian Ocean, this apartment combines modern elegance with the serene charm of the south coast. The spacious interior features an open-plan living and dining area that flows seamlessly into a fully-equipped modern kitchen, complete with top-of-the-line appliances and sleek finishes. The master bedroom boasts a private balcony where you can enjoy spectacular sunsets over the ocean, along with an en-suite bathroom featuring contemporary fixtures and a rainfall shower. The additional bedrooms are equally spacious, offering plenty of natural light and ample storage. The apartment also includes access to on-site amenities, such as a rooftop pool, fitness center, and 24/7 security. Located just minutes from Galle’s famous beaches, historic fort, and vibrant city center, this apartment offers the perfect balance of tranquility and accessibility. Whether you're looking for a permanent residence or a weekend getaway, this stunning apartment in Galle is the ultimate coastal retreat.",
+			"floorplan": "/images/floorplans/floorplan5.jpg",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.669046151947!2d80.20676019728894!3d6.040313085359075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1736132644659!5m2!1sen!2slk",
+            "added": {
+                "month":"January",
+                "day":1,
+                "year":2025
+            }
+        },
+		{
+            "id":"06",
+			"type":"House",
+            "bedrooms":1,
+			"price":15000000,
+			"tenure":"Freehold",
+			"description":"This stunning 1-bedroom colonial-style house in Galle blends timeless elegance with modern comforts. Nestled in a serene neighborhood, it features a lush garden, spacious interiors, and close proximity to the iconic Galle Fort and pristine beaches.",
+			"location":"Villa Emma, Pitiwella, Galle, 80270",
+			"title": "Charming Colonial-Style House in Galle",
+			"city":"Galle",
+			"postalCode":"80270",
+            "picture":"/images/prop06/img1.jpg",
+			"url":"properties/prop2.html",
+			"longDescription": "Discover the perfect blend of history and modernity in this exquisite 4-bedroom colonial-style house located in the heart of Galle. From its graceful architecture to its thoughtfully designed interiors, this property is a true gem for those seeking a peaceful yet connected lifestyle. Step into a spacious living area adorned with high ceilings, large windows, and vintage-inspired finishes that exude timeless charm. The house boasts a fully-equipped modern kitchen with state-of-the-art appliances and ample counter space, perfect for entertaining family and friends. The master bedroom offers a tranquil retreat with an en-suite bathroom and a private veranda overlooking the lush, landscaped garden. The remaining bedrooms are generously sized and feature classic wooden detailing, providing a warm and inviting atmosphere. Outside, the beautifully maintained garden offers plenty of space for outdoor activities, morning coffees, or evening gatherings under the stars. The property also includes a separate carport and storage area, ensuring both functionality and convenience. Located just a short drive from Galle Fort, golden beaches, and local amenities, this house offers the ideal balance of heritage, comfort, and accessibility. Whether you're looking for a family home or a vacation getaway, this colonial-style treasure is ready to welcome you.",
+			"floorplan": "/images/floorplans/floorplan6.jpg",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.669046151947!2d80.20676019728894!3d6.040313085359075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1736132710205!5m2!1sen!2slk",
+            "added": {
+                "month":"May",
+                "day":17,
+                "year":2024
+            }
+        },
+		{
+            "id":"07",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":15000000,
+			"tenure":"Leasehold",
+			"description":"This stylish 2-bedroom flat in Colombo features a sleek open-plan layout, modern kitchen, and a private balcony with panoramic city views. Located in the heart of the city, it provides convenient access to business hubs, shopping centers, and vibrant entertainment spots.",
+			"location":"Aquaria, Kirimandala Road, Colombo, 00500",
+			"title": "Modern Urban Flat with Contemporary Amenities",
+			"city":"Colombo",
+			"postalCode":"00500",
+            "picture":"/images/prop07/img1.jpg",
+			"url":"properties/prop2.html",
+			"longDescription": "Experience the epitome of urban living with this contemporary 2-bedroom flat, perfectly positioned in the bustling city of Colombo. Designed for modern lifestyles, the flat boasts an open-plan living and dining area that seamlessly connects to a state-of-the-art kitchen equipped with premium appliances and ample storage space. Step out onto the private balcony to enjoy breathtaking views of the city skyline, perfect for unwinding after a long day. The flat features two spacious bedrooms, including a master suite with built-in wardrobes and an en-suite bathroom. High-quality finishes, large windows that flood the space with natural light, and thoughtful design details make this flat a standout choice for professionals or small families. Located in a secure building with 24-hour security, dedicated parking, and access to facilities such as a rooftop garden and gym, this flat offers convenience and peace of mind. Situated within walking distance of major business hubs, restaurants, shopping centers, and public transport links, it’s a prime location for those who value accessibility and comfort.",
+			"floorplan": "/images/floorplans/floorplan7.webp",
+			"iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.6321540671!2d79.77380331342476!3d6.9218315609222705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1736132755810!5m2!1sen!2slk",
+            "added": {
+                "month":"January",
+                "day":2,
+                "year":2025
+            }
+        }
+]}
