@@ -3,7 +3,7 @@ import About from "./components/about.js";
 import Contact from "./components/contact.js";
 import Home from "./components/home.js";
 import Favourites from "./components/favourites.js";
-// import SidePanel from "./components/sidePanel.js";
+import SidePanel from "./components/sidePanel.js";
 import House from "./components/properties/house.js";
 import Flat from "./components/properties/flat.js";
 import Apartment from "./components/properties/apartment.js";

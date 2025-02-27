@@ -103,20 +103,20 @@ export default function Home(){
             </div>
 
             <div className="homepage-second">
-                {/* <div>
+                <div>
                     <h2 className="homepage-second-title">FIND YOUR DREAM HOME</h2>
-                </div> */}
+                </div>
           
                 <form onSubmit={handleFilteredProperties} className="homepage-form-container">
-                    {/* <div className="homepage-form-input"> to select the type of the property */}
-                        {/* <label>Type</label>
+                    <div className="homepage-form-input"> {/* to select the type of the property*/}
+                        <label>Type</label>
                         <select value={type} onChange={handleType}>
                             <option value=''>Select</option>
                             {types.map((type, index) => (
                                 <option key={index} value={type}>{type}</option>
                             ))}
-                        </select> */}
-                    {/* </div> */}
+                        </select>
+                    </div>
                     <div className="homepage-form-input"> {/* to select the city for the property*/}
                         <label>City</label>
                         <select value={city} onChange={handleCity}>
@@ -156,14 +156,13 @@ export default function Home(){
 
                         </select>
                     </div>
-
-                </form>
-
-                <div className="homepage-form-button homepage-form-input">
+                
+                    <div className="homepage-form-button homepage-form-input">
                         
-                        <input type="submit" value="Search" />
+                        <input type="submit" value="Filter Properties" />
                         
                     </div>
+                </form>
             
 
 

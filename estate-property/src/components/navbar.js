@@ -18,7 +18,7 @@ export default function Navbar(){
 
             <ul>
                 <CustomLink to="/">Home</CustomLink>
-                {/* <Dropdown label="Properties">
+                <Dropdown label="Properties">
                     <ul className="dropdown-menu">
                         <DropdownOption to="/properties/house">
                             <div className="dropdown-option-div">Houses</div>
@@ -30,15 +30,12 @@ export default function Navbar(){
                             <div className="dropdown-option-div">Apartments</div>
                         </DropdownOption>
                     </ul>
-                </Dropdown> */}
+                </Dropdown>
                 
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/contact">Contact us</CustomLink>
                 {/* <CustomLink><FontAwesomeIcon icon={faNoteSticky} /></CustomLink> */}
-                <CustomLink to="/favourites">
-                Favourites
-                    {/* <FontAwesomeIcon icon={faHeart} className="heart-icon"/> */}
-                </CustomLink>
+                <CustomLink to="/favourites"><FontAwesomeIcon icon={faHeart} className="heart-icon"/></CustomLink>
             </ul>
 
         </nav>

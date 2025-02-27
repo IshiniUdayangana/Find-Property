@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faArrowRight, faChevronLeft, faChevronRight, faCircle } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft, faArrowRight, faCircle } from '@fortawesome/free-solid-svg-icons'
 
 export default function ImageSlider({pictures}){
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,17 +26,15 @@ export default function ImageSlider({pictures}){
         <div className='image-slider-container'>
             <div className='image-slider'
             style={{backgroundImage: `url('${pictures[currentIndex]}')`}}>
-                <button className='slider-arrow-left slider-arrow' onClick={goBack}><FontAwesomeIcon icon={faChevronLeft}  /></button>
-                <button className='slider-arrow-right slider-arrow' onClick={goForward}><FontAwesomeIcon icon={faChevronRight}  /></button>
+                <button className='slider-arrow-left slider-arrow' onClick={goBack}><FontAwesomeIcon icon={faArrowLeft}  /></button>
+                <button className='slider-arrow-right slider-arrow' onClick={goForward}><FontAwesomeIcon icon={faArrowRight}  /></button>
             </div>
 
-            
-
-            {/* <div className='circles-container'>
+            <div className='circles-container'>
                 {pictures.map((pic, picIndex) => (
                     <div key={picIndex}><FontAwesomeIcon icon={faCircle} className='image-slider-dot' onClick={()=> goToPic(picIndex)}/></div>
                 ))}
-            </div> */}
+            </div>
 
             
         </div>

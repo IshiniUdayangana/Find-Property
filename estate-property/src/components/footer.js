@@ -10,10 +10,10 @@ export default function Footer(){
         <footer className="footer">
             <div className="footer-content">
                     <ul>
-                    <li className="footer-icon"><a href="https://web.whatsapp.com/"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
                         <li className="footer-icon"><a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a></li>
                         <li className="footer-icon"><a href="https://www.facebook.com/Meta"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                        
+                        <li className="footer-icon"><a href="https://x.com/?lang=en"><FontAwesomeIcon icon={faXTwitter} /></a></li>
+                        <li className="footer-icon"><a href="https://web.whatsapp.com/"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
                     </ul>
             </div>
 

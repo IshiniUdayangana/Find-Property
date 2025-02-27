@@ -6,7 +6,7 @@ import propertiesData from "../properties.json"; //import json data from the fil
 import { Link} from "react-router-dom"
 import { useFavourites } from "./favouritesContext";
 
-export default function Card({id, title, picture, description,bedrooms, href, price, alt, property, onFavouriteChange, type}){
+export default function Card({id, title, picture, description, href, price, alt, property, onFavouriteChange}){
 
     //keep track of the properties that are being added to the favourites list
 
@@ -27,7 +27,6 @@ export default function Card({id, title, picture, description,bedrooms, href, pr
             <div className="card-details-container">
                 <div className="card-title-container">
                     <div className="card-title">
-                        
                         {title}
                     </div>
                     
@@ -35,9 +34,6 @@ export default function Card({id, title, picture, description,bedrooms, href, pr
 
                 <div className="card-des-container">
                     <div className="card-description">
-                        <br></br>
-                        Property Type : {property.type}<br></br>
-                        No of Bedrooms : {property.bedrooms} <br></br> <br></br>
                         {description}
                         
                     </div>
@@ -45,7 +41,6 @@ export default function Card({id, title, picture, description,bedrooms, href, pr
                         <div className="card-price">
                             LKR {price}
                         </div>
-                        
                         <div className="card-button-container">
                          <Link key={property.id} to={`/property/${property.id}`} className="card-readmore-button">Read More</Link>
                         </div>

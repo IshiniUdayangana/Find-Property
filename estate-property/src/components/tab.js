@@ -14,17 +14,15 @@ export default function Tab({longdDescription, floorPlanImage, propertyName, ifr
     return (
         <div className="tabs-container">
             <div className="tab-buttons-container">
-
                 <button className={`tab-button ${currentTab === 1? "active-tab":""}`} onClick={() => handleTabClick(1)}>
                     Description
-                </button>
-                <button className={`tab-button ${currentTab === 3? "active-tab":""}`} onClick={() => handleTabClick(3)}>
-                    Location
                 </button>
                 <button className={`tab-button ${currentTab === 2? "active-tab":""}`} onClick={() => handleTabClick(2)}>
                     Floor plan
                 </button>
-                
+                <button className={`tab-button ${currentTab === 3? "active-tab":""}`} onClick={() => handleTabClick(3)}>
+                    Location
+                </button>
             </div>
 
             <div className="tab-content-container">
